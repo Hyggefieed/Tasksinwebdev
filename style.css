@@ -1,0 +1,201 @@
+body{
+    background-color: #e9e3e3;
+    font-family: titling-gothic-fb-wide, sans-serif;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+    
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.forcollaborations{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.contentuniverse{
+    font-weight: 550;
+    color: #ff3636;
+    font-size: 12px;
+}
+
+.menu{
+    font-weight: 550;
+    font-size: 12px;
+}
+
+.right{
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.main{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.playvideo{
+    margin-top: 200px;
+    margin-left: 50px;
+    font-size: 12px;
+    font-weight: 550;
+    color: #ff3636;
+
+}
+.aboutus{
+    margin-top: -30px;
+    margin-left: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+
+}
+
+.down{
+    margin-top: 50px;
+}
+
+.strategy{
+    margin-top: 0px;
+    font-size: 52px;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    color: rgb(34, 34, 34);
+}
+
+/* Now adding animations to different elements */
+
+.brand {
+    animation-name: Brand;
+    animation-duration: 0.5s;
+    animation-direction: normal;
+    animation-timing-function: ease-in;
+    transition: all;
+}
+
+@keyframes Brand {
+    from{transform:scale(1.1);}
+    to{transform:scale(1);}
+}
+
+.image{
+    animation-name: Image;
+    animation-delay: 0.5s;
+    animation-duration: 1.3s;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    transition: all;
+
+}
+
+@keyframes Image {
+    from{height: 0%;}
+    to{height: 75%;}
+}
+
+.upperleft{
+    animation-name: Image;
+    animation-delay: 0.5s;
+    animation-duration: 1.3s;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    transition: all;
+
+}
+
+@keyframes Image {
+    from{transform:translateX(-30px);}
+    to{tranform:translateY(0px); }
+}
+
+.aboutus {
+    animation-name: About;
+    animation-delay: 1.3s;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    transition: all;
+}
+
+@keyframes About {
+    from{transform:translateX(-30px);}
+    to{tranform:translateY(0px); }
+}
+
+.strategy{
+    animation-name: Strategy;
+    animation-delay: 1.3s;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    transition: all;
+}
+
+@keyframes Strategy {
+    from{transform:translateX(-30px);}
+    to{tranform:translateY(0px); }
+}
+
+.playvideo{
+    animation-name: Play;
+    animation-delay: 1.3s;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    transition: all;
+}
+
+@keyframes Play {
+    from{transform:translateX(-30px);}
+    to{tranform:translateY(0px); }
+}
+
+.line2{
+    animation-name: Line2;
+    animation-delay: 1.3s;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    transition: all;
+}
+
+@keyframes Line2 {
+    from{transform:translateX(-30px);}
+    to{tranform:translateY(0px); }
+}
+
+.line3{
+    animation-name: Line3;
+    animation-delay: 1.3s;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    transition: all;
+}
+
+@keyframes Line3 {
+    from{transform:translateX(-30px);}
+    to{tranform:translateY(0px); }
+}
+
+.nav{
+    animation-name: Nav;
+    animation-delay: 3s;
+    animation-duration: 1.5s;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    transition: all;
+}
+
+@keyframes Nav {
+    from{transform:translateY(-30px);}
+    to{tranform:translateY(0px); }
+}
+
+
+
+
